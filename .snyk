@@ -1,0 +1,36 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.5
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-450202:
+    - '@babel/core > lodash':
+        patched: '2019-07-04T02:48:41.772Z'
+    - lodash:
+        patched: '2019-07-04T02:48:41.772Z'
+    - sequelize > lodash:
+        patched: '2019-07-04T02:48:41.772Z'
+    - ics > lodash:
+        patched: '2019-07-04T02:48:41.772Z'
+    - dataloader-sequelize > lodash:
+        patched: '2019-07-04T02:48:41.772Z'
+    - cucumber > lodash:
+        patched: '2019-07-04T02:48:41.772Z'
+    - babel-plugin-lodash > lodash:
+        patched: '2019-07-04T02:48:41.772Z'
+    - stripe > lodash:
+        patched: '2019-07-04T02:48:41.772Z'
+    - '@babel/core > @babel/types > lodash':
+        patched: '2019-07-04T02:48:41.772Z'
+    - winston > async > lodash:
+        patched: '2019-07-04T02:48:41.772Z'
+    - handlebars > async > lodash:
+        patched: '2019-07-04T02:48:41.772Z'
+    - apollo-server-express > apollo-server-core > lodash:
+        patched: '2019-07-04T02:48:41.772Z'
+    - request-promise > request-promise-core > lodash:
+        patched: '2019-07-04T02:48:41.772Z'
+    - juice > web-resource-inliner > async > lodash:
+        patched: '2019-07-04T02:48:41.772Z'
+    - apollo-server-express > apollo-server-core > apollo-engine-reporting > lodash:
+        patched: '2019-07-04T02:48:41.772Z'

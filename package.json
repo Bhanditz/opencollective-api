@@ -106,7 +106,8 @@
     "twitter": "1.7.1",
     "unicode": "11.0.1",
     "uuid": "3.3.2",
-    "winston": "3.1.0"
+    "winston": "3.1.0",
+    "snyk": "^1.189.0"
   },
   "devDependencies": {
     "@babel/cli": "7.2.3",
@@ -204,7 +205,9 @@
     "compile:email": "babel-node scripts/compile-email.js",
     "compile:email:watch": "./scripts/watch_email_template.sh",
     "maildev": "npx maildev",
-    "refund-transactions": "babel-node ./scripts/add_refund_transactions_from_collective.js"
+    "refund-transactions": "babel-node ./scripts/add_refund_transactions_from_collective.js",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "nyc": {
     "reporter": [
@@ -228,5 +231,6 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/opencollective/opencollective-api.git"
-  }
+  },
+  "snyk": true
 }
