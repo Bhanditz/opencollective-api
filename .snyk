@@ -1,0 +1,58 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - lodash:
+        patched: '2020-05-01T02:47:14.970Z'
+    - '@babel/node > lodash':
+        patched: '2020-05-01T02:47:14.970Z'
+    - babel-plugin-lodash > lodash:
+        patched: '2020-05-01T02:47:14.970Z'
+    - cucumber > lodash:
+        patched: '2020-05-01T02:47:14.970Z'
+    - dataloader-sequelize > lodash:
+        patched: '2020-05-01T02:47:14.970Z'
+    - ics > lodash:
+        patched: '2020-05-01T02:47:14.970Z'
+    - sequelize > lodash:
+        patched: '2020-05-01T02:47:14.970Z'
+    - stripe > lodash:
+        patched: '2020-05-01T02:47:14.970Z'
+    - '@babel/preset-env > @babel/plugin-transform-block-scoping > lodash':
+        patched: '2020-05-01T02:47:14.970Z'
+    - apollo-server-express > apollo-server-core > lodash:
+        patched: '2020-05-01T02:47:14.970Z'
+    - handlebars > async > lodash:
+        patched: '2020-05-01T02:47:14.970Z'
+    - winston > async > lodash:
+        patched: '2020-05-01T02:47:14.970Z'
+    - request-promise > request-promise-core > lodash:
+        patched: '2020-05-01T02:47:14.970Z'
+    - '@babel/plugin-transform-async-to-generator > @babel/helper-remap-async-to-generator > @babel/types > lodash':
+        patched: '2020-05-01T02:47:14.970Z'
+    - apollo-server-express > apollo-server-core > apollo-engine-reporting > lodash:
+        patched: '2020-05-01T02:47:14.970Z'
+    - juice > web-resource-inliner > async > lodash:
+        patched: '2020-05-01T02:47:14.970Z'
+    - '@babel/preset-env > @babel/plugin-transform-parameters > @babel/helper-call-delegate > @babel/types > lodash':
+        patched: '2020-05-01T02:47:14.970Z'
+    - '@babel/preset-env > @babel/plugin-transform-parameters > @babel/helper-call-delegate > @babel/helper-hoist-variables > @babel/types > lodash':
+        patched: '2020-05-01T02:47:14.970Z'
+    - '@babel/preset-env > @babel/plugin-transform-parameters > @babel/helper-call-delegate > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash':
+        patched: '2020-05-01T02:47:14.970Z'
+    - '@babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash':
+        patched: '2020-05-01T02:47:14.970Z'
+    - '@babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash':
+        patched: '2020-05-01T02:47:14.970Z'
+    - forest-express-sequelize > lodash:
+        patched: '2020-05-01T02:47:14.970Z'
+    - sequelize-cli > lodash:
+        patched: '2020-05-01T02:47:14.970Z'
+    - babel-plugin-lodash > @babel/types > lodash:
+        patched: '2020-05-01T02:47:14.970Z'
+    - sequelize-cli > umzug > lodash:
+        patched: '2020-05-01T02:47:14.970Z'
+    - babel-plugin-lodash > @babel/helper-module-imports > @babel/types > lodash:
+        patched: '2020-05-01T02:47:14.970Z'
